@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+* {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+}
+
+.game {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.gamebody {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  margin: auto;
+  padding: 10px;
+  width: 400px;
+  height: 400px;
+}
+.cell {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.help {
+  margin-top: 10px;
+  margin: auto;
+}
+
+.btn {
+  background: #000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.cell:focus, .cell:active {
+  outline: none;
+  border: thin solid #ddd;
+}
